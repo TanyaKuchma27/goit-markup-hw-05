@@ -492,11 +492,13 @@ a.current {
 }
 
 .social-item-link:hover,
-.social-item-link:focus,
+.social-item-link:focus {
+  background-color: var(--accent-color);
+}
+
 .social-item-link:hover .social-item-icon,
 .social-item-link:focus .social-item-icon {
   fill: #ffffff;
-  background-color: var(--accent-color);
 }
 
 /* -----CLIENT----- */
